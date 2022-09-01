@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.dFlex {
+    display: flex
+}
+.flexWrap {
+    flex-wrap: wrap;
+}
+.flex1 {
+    flex: 1;
+}
+.App {
+    width: 800px;
+    margin: 0 auto;
+}
+.NavBar {
+    display:flex;
+    justify-content: space-between;
+}
+.NavBar h1 {
+    cursor: pointer;
+    
+}
+.UserPage .top {
+    display: flex;
+}
+.UserPage .nftList{
+    display: flex;
+    flex-wrap: wrap;
+}
+.UserPage .offer {
+    background-color: beige;
+    min-height: 100px;
+}
+.youget, .iget {
+    width: 400px;
+}
+
+.offerCard {
+    border: 1px solid black;
+}
+.RequestsPage .nftList {
+    min-height: 100px;
+}
